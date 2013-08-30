@@ -1,0 +1,17 @@
+* lib_autopair.ahk
+
+an autpair extension for EWOW.
+
+** Usage
+
+Load this library
+
+: #Include lib_autopair.ahk
+
+and bind keys.
+
+: #If !ignored_frame() && !cx
+: ,:: smart_colon()
+: [:: smart_bracket()
+: +[:: smart_brace()
+: +':: smart_dquot()
